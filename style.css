@@ -43,8 +43,8 @@ body{
     height: auto;
 }
 
+
 .corpo{
-    background-color: #e2cbab;
     text-align: center;
 }
 
@@ -103,7 +103,32 @@ body{
 }
 
 .resenhaa p{
+    line-height: 1.5;
+    font-size: 16px;
     margin: 10px;
     font-family: Arial;
     text-align: justify;
+}
+
+.resenhaa{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.resenhaa .coluna{
+    flex: 1 1 350px;
+}
+
+.resenhaa img{
+    float: right;
+    width: 80%;
+}
+
+.resenhaa h3{
+    padding: 3px;
+    font-weight: bold;
+    border-bottom: 2px solid #54756a;
 }
